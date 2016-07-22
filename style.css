@@ -2,6 +2,24 @@ body {
   background: url('http://www.slightlymagic.net/forum/download/file.php?id=2656&mode=view');
 }
 
+.blackjackimage {
+  background: url('http://prodimages.neon-light.net/160/nl-111065-blue-blackjack-neon-sign.jpg');
+  position: absolute;
+/*   top: 10%;
+  left: 10%; */
+}
+
+#start {
+  position: absolute;
+  padding:20px;
+  margin: 5%;
+  width: 200px;
+  font-size: 2em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
 .deck {
   position: absolute;
    top: 35%;
@@ -13,7 +31,29 @@ body {
   border: 15px solid antiquewhite;
 }
 
-.dealercard1 {
+#fakedeck1 {
+  position: absolute;
+   top: 36%;
+   left: 6%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+#fakedeck2 {
+  position: absolute;
+   top: 37%;
+   left: 7%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+#dealercard1 {
   position: absolute;
   top:5%;
   left:60%;
@@ -24,10 +64,10 @@ body {
   border: 15px solid antiquewhite;
 }
 
-.dealercard2 {
+#dealercard2 {
   position: absolute;
   top: 5%;
-  left: 38%;
+  left: 45%;
   height: 180px;
   width: 150px;
   background-color: white;
@@ -35,7 +75,7 @@ body {
   border: 15px solid antiquewhite;
 }
 
-.playercard1 {
+#playercard1 {
   position: absolute;
   bottom: 5%;
   left: 60%;
@@ -46,10 +86,10 @@ body {
   border: 15px solid antiquewhite;
 }
 
-.playercard2 {
+#playercard2 {
   position: absolute;
   bottom: 5%;
-  left: 38%;
+  left: 45%;
   height: 180px;
   width: 150px;
   background-color: white;
