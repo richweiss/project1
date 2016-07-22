@@ -1,0 +1,11 @@
+body {
+  background: url('http://www.slightlymagic.net/forum/download/file.php?id=2656&mode=view');
+}
+
+div {
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid floralwhite;
+}
