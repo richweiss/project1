@@ -2,10 +2,68 @@ body {
   background: url('http://www.slightlymagic.net/forum/download/file.php?id=2656&mode=view');
 }
 
-div {
+.deck {
+  position: absolute;
+   top: 35%;
+   left: 5%;
   height: 180px;
   width: 150px;
   background-color: white;
   border-radius: 10px;
-  border: 15px solid floralwhite;
+  border: 15px solid antiquewhite;
 }
+
+.dealercard1 {
+  position: absolute;
+  top:5%;
+  left:60%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+.dealercard2 {
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+.playercard1 {
+  position: absolute;
+  bottom: 5%;
+  left: 60%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+.playercard2 {
+  position: absolute;
+  bottom: 5%;
+  left: 38%;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid antiquewhite;
+}
+
+/* .container {
+  position: relative;
+  width: 100%;
+  max-width: 50px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+} */
+
+
