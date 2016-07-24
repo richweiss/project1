@@ -1,5 +1,7 @@
-var deck = [
+//create deck//
+var deckArray = [
   {
+  img: url()
   suit: "hearts";
   value: "two";
   facecard: "false";
@@ -263,28 +265,66 @@ var deck = [
   facecard: "false";
   facevalue: "nine";
   },
-
+  {
+  suit: "clubs";
+  value: "ten";
+  facecard: "true";
+  facevalue: "ten";
+  },
+  {
+  suit: "clubs";
+  value: "ten";
+  facecard: "true";
+  facevalue: "Jack";
+  },
+  {
+  suit: "clubs";
+  value: "ten";
+  facecard: "true";
+  facevalue: "Queen";
+  },
+  {
+  suit: "clubs";
+  value: "ten";
+  facecard: "true";
+  facevalue: "King";
+  },
 ]
 
 
+//create an ID container for each value to be placed//
+var dealerCard1 = getElementbyID("dealerCard1")
+var dealerCard2 = getElementbyID("dealerCard2")
+var playerCard1 = getElementbyID("playerCard1")
+var playerCard2 = getElementbyID("playerCard2")
+//create function to random deal THEN assign values to each ID//
+var randomCard = function() {
+  var deal = Math.floor(Math.random(deckArray.length);
+  return(deal);
+}
 
-// var begin = document.getElementsbyClass(".deck")
+var getDealerHand = function() {
+  dealerCard1("randomCard");
+  dealerCard2("randomCard");
+}
 
-// function begin(){
-//   addPlayerListener();
-//   addDealerListener();
-// }
+var getPlayerHand = function() {
+  playerCard1("randomCard");
+  playerCard2("randomCard");
+}
 
-// function addPlayerCard1Listener(){
-//   for (var i = 0; i >= 0; i--) {
-//     boxes[i].addEventListener("click", ??);
-//   }
+var start = function() {
+  getDealerHand();
+  getPlayerHand();
+}
+//add listener and connect to html button - should deal values to each card//
+function addPlayListener(){
+  var playButton = document.getElementById("start");
+  playButton.addEventListener("click");
+  return ("playButton")
+}
 
-// function addPlayerCard2Listener(){
-// }
 
-// function addDealerCard1Listener(){
-//   }
-
-// function addDealerCard2Listener(){
-//   }
+function CheckforWin () {
+  if
+}
